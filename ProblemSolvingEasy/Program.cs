@@ -7,6 +7,7 @@ List<string> options = new List<string>
     "3. Simple Array Sum",
     "4. CompareTheTriplets",
     "5. A Very Big Sum",
+    "6. Diagonal Difference",
     "0. Exit"
 };
 
@@ -45,6 +46,16 @@ void DisplayMenu()
 
         case "5":
             Console.WriteLine("The answer is: " + VeryBigSum.CalculateSum(new List<long> { 1000000001, 1000000002, 1000000003, 1000000004, 1000000005 }));
+            ReturnToMenu();
+            break;
+
+        case "6":
+            Console.WriteLine("The answer is: " + DiagonalDifference.CalculateDifference(new List<List<int>>
+            {
+                new List<int>{11,2,4},
+                new List<int>{4,5,6},
+                new List<int>{10,8,-12}
+            }));
             ReturnToMenu();
             break;
 
