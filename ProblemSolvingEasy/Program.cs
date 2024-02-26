@@ -6,6 +6,7 @@ List<string> options = new List<string>
     "2. Time Conversion",
     "3. Simple Array Sum",
     "4. CompareTheTriplets",
+    "5. A Very Big Sum",
     "0. Exit"
 };
 
@@ -39,6 +40,11 @@ void DisplayMenu()
         case "4":
             List<int> score = CompareTheTriplets.CompareTriplets(new List<int> { 5, 6, 7 }, new List<int> { 3, 6, 10 });
             Console.WriteLine("The answer is: " + score[0] + " " + score[1]);
+            ReturnToMenu();
+            break;
+
+        case "5":
+            Console.WriteLine("The answer is: " + VeryBigSum.CalculateSum(new List<long> { 1000000001, 1000000002, 1000000003, 1000000004, 1000000005 }));
             ReturnToMenu();
             break;
 
