@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProblemSolvingEasy
+﻿namespace ProblemSolvingEasy
 {
     //https://www.hackerrank.com/challenges/plus-minus/problem
     public static class PlusMinus

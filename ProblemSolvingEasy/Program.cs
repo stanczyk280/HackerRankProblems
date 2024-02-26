@@ -11,6 +11,7 @@ List<string> options = new List<string>
     "7. Plus Minus",
     "8. Staircase",
     "9. Mini Max Sum",
+    "10. Birthday Cake Candles",
     "0. Exit"
 };
 
@@ -74,6 +75,11 @@ void DisplayMenu()
 
         case "9":
             MiniMaxSum.PrintMinMax(new List<int> { 140638725, 436257910, 953274816, 734065819, 362748590 });
+            ReturnToMenu();
+            break;
+
+        case "10":
+            Console.WriteLine("The answer is: " + BirthdayCakeCandles.CalculateCandles(new List<int> { 3, 2, 1, 3 }));
             ReturnToMenu();
             break;
 
