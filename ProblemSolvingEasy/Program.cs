@@ -4,6 +4,7 @@ List<string> options = new List<string>
 {
     "1. SolveMeFirst",
     "2. Time Conversion",
+    "3. Simple Array Sum",
     "0. Exit"
 };
 
@@ -26,6 +27,11 @@ void DisplayMenu()
 
         case "2":
             Console.WriteLine("The answer is: " + TimeConversion.ConvertTime("07:01:00AM"));
+            ReturnToMenu();
+            break;
+
+        case "3":
+            Console.WriteLine("The answer is: " + SimpleArraySum.SumArray(new List<int> { 1, 2, 3, 4, 10, 11 }));
             ReturnToMenu();
             break;
 
