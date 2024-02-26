@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemSolvingEasy
 {
+    //https://www.hackerrank.com/challenges/plus-minus/problem
     public static class PlusMinus
     {
         public static void PrintRatios(List<int> arr)
