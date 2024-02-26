@@ -10,6 +10,7 @@ List<string> options = new List<string>
     "6. Diagonal Difference",
     "7. Plus Minus",
     "8. Staircase",
+    "9. Mini Max Sum",
     "0. Exit"
 };
 
@@ -68,6 +69,11 @@ void DisplayMenu()
 
         case "8":
             Staircase.PrintStaircase(5);
+            ReturnToMenu();
+            break;
+
+        case "9":
+            MiniMaxSum.PrintMinMax(new List<int> { 140638725, 436257910, 953274816, 734065819, 362748590 });
             ReturnToMenu();
             break;
 
