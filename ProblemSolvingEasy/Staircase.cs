@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemSolvingEasy
 {
+    //https://www.hackerrank.com/challenges/staircase/problem
     public static class Staircase
     {
         public static void PrintStaircase(int n)
