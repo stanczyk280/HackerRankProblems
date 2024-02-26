@@ -9,6 +9,7 @@ List<string> options = new List<string>
     "5. A Very Big Sum",
     "6. Diagonal Difference",
     "7. Plus Minus",
+    "8. Staircase",
     "0. Exit"
 };
 
@@ -62,6 +63,11 @@ void DisplayMenu()
 
         case "7":
             PlusMinus.PrintRatios(new List<int> { 1, 1, 0, -1, -1 });
+            ReturnToMenu();
+            break;
+
+        case "8":
+            Staircase.PrintStaircase(5);
             ReturnToMenu();
             break;
 
